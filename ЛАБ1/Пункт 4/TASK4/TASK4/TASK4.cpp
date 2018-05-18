@@ -7,6 +7,7 @@ float x, y, z;
 int main(void)
 {
 	system("chcp 1251"); /*Переход в консоли на русский язык*/
+	//GitHubTEST
 	system("cls"); /*Очистка консоли*/
 	x = 2;
 	y = 5;
