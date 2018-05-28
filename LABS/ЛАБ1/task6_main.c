@@ -1,14 +1,16 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "stdio.h"
-#include "math.h"
+
+void f_result();
+double x, y, f;
 
 void main()
 {
-	double x = 10, y = 20, f = (sqrt(x) - sqrt(y)) / x;
+	x = 10; y = 20; f_result();
 	printf("x = %f\ny = %f\nf = %f\n\n", x, y, f);
 	printf("x = "); scanf("%lf", &x);
 	printf("y = "); scanf("%lf", &y);
-	f = (sqrt(x) - sqrt(y)) / x;
+	f_result();
 	printf("f = %f", f);
 	_getch();
 }

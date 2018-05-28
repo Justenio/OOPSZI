@@ -1,11 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "stdio.h"
-#include "math.h"
 
-double f(double x, double y) 
-{
-	return ((sqrt(x) - sqrt(y)) / x);
-}
+double f(double x, double y);
 
 void main()
 {
